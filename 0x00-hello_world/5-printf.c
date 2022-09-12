@@ -7,5 +7,6 @@ int main(void)
 {
   char Sen[] = "with proper grammar, but the outcome is a piece of art";
   printf("%s\n",Sen);
-    return (0);
+  
+  return (0);
 }
