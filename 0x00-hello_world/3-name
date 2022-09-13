@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc  -c main.c -o cisfun | chmod u+x cisfun | export CFILE=main.c
+export CFILE=main.c | gcc  main.c -o cisfun
