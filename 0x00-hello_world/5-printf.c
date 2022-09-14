@@ -5,8 +5,6 @@
  */
 int main(void)
 {
-  char Sen[] = "with proper grammar, but the outcome is a piece of art";
-  printf(Sen);
-  
-  return 0;
+ printf("with proper grammar, but the outcome is a piece of art");
+ return (0);
 }
