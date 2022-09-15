@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+main()
 {
   printf("Holberton School");
     return (0);
