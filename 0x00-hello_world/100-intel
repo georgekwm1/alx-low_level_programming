@@ -1,2 +1,2 @@
 #!/bin/bash
-$one='main.c'; export CFILE="${one%.*}"; gcc -S -masm=intel -o "$CFILE.s" "$one"
+gcc -S -masm=intel -o "$CFILE"
