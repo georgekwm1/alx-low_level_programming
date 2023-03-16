@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+/*Executes main function*/
 int main(void)
 {
 char c[] = "and that piece of art is useful";
