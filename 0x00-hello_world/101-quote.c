@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 
-int main()
+int main(void)
 {
-char c[]= "and that piece of art is useful";
-char d[]= "Dora Korpar";
-int i=2015;
-int j=10;
-int k=19;
+char c[] = "and that piece of art is useful";
+char d[] = "Dora Korpar";
+int i = 2015;
+int j = 10;
+int k = 19;
 
-printf("%s\" - %s, %d-%d-%d\n",c,d,i,j,k);
+printf ("%s\" - %s, %d-%d-%d\n", c, d, i, j, k);
 return(1);
 }
