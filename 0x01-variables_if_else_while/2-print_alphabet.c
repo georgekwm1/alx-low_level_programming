@@ -1,14 +1,13 @@
-#include <stdio.h>    
- 
-int main()
-{
-char ch
-  
-  
-        for (ch = 'a'; ch <= 'z';)
-    {
-        putchar("%c \n", ch);
-	ch++;  
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    char letter;
+
+    for (letter = 'a'; letter <= 'z'; letter++) {
+        putchar(letter);
     }
- return 0;
+
+    return 0;
 }
