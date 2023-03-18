@@ -12,7 +12,7 @@
  */
 int main(void)
 {
-char lower,upper;
+char lower, upper;
 
 for (lower = 'a'; lower <= 'z'; lower++)
 {
