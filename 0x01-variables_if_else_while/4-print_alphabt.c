@@ -9,8 +9,7 @@ int main() {
         if (letter == 'c'|| letter == 'q'){
             putchar(32);
         }
-        else putchar(letter);
-
+	putchar(letter);  
     }
     putchar('\n');
     return 0;
