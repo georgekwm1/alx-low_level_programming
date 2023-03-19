@@ -15,7 +15,7 @@
 int main(void)
 {
 int i, j;
-j= 9;
+j = 9;
 for (i = 0 ; i < 9 ; i++)
 {
 
