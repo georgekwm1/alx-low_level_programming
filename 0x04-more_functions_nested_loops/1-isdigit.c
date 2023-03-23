@@ -7,7 +7,7 @@
  * main - print putchar
  * Return: always 0
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
 if (c == 1)
 {
