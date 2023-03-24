@@ -6,11 +6,18 @@
  */
 void print_line(int n)
 {
-scanf("input the number of times to draw _", &n);
-for (n > 1; n <= n; n++)
+if (n <= 0)
+{
+_putchar('\n');
+}
+else
+{
+int i;
+
+for (i = 1; i <= n; i++)
 {
 _putchar('_');
-if (n <= 0)
+}
 _putchar('\n');
 }
 }
