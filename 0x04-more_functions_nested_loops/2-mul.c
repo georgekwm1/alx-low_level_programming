@@ -9,7 +9,6 @@
  */
 int mul(int a, int b)
 {
-int multiply = a * b;
-_putchar(multiply + '0');
-return (multiply);
+int mul = a * b;
+return (mul);
 }
