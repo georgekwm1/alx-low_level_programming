@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
+
 /**
  * _rev - Returns the length of a string
- * @s : Variable
+ * @s : string
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 void _rev(char *s)
 {
