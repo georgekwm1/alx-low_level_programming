@@ -9,9 +9,19 @@
  */
 void _rev(char *s)
 {
+int longi = 0;
+int o;
 while (*s != '\0')
 {
-putchar(*s--);
+longi++;
+s++;
 }
+s--;
+for (o = longi; o > 0; o--)
+{
+putchar(*s);
+s--;
+}
+
 putchar('\n');
 }
