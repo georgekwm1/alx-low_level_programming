@@ -13,9 +13,8 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-*src = malloc(sizeof(char) + (n + 1));
+*src = malloc(sizeof(char) * (n + 1));
 strcat(dest, src);
-free(src);
 return (dest);
-
+free(src);
 }
