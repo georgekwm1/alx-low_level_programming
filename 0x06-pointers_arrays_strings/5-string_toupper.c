@@ -5,17 +5,22 @@
  * *string_toupper - changes all lowercase letters of a string to uppercase.
  *
  * Description: 'the program's description'
- * @: source pointer
+ * @n: source pointer
  * @: destination pointer
  *
- * Return: Always 0 (Success)
+ * Return: n
  */
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
-char a[], t, b;
+int i;
 
-t = strlwr(a);
-b = strupr(t)
-return (0);
-
+i = 0;
+while (n[i] != '\0')
+{
+if (n[i] >= 'a' && n[i] <= 'z')
+n[i] = n[i] - 32;
+i++;
 }
+return (n);
+}
+
