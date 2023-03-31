@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_strncpy - Writes a function that copies a string.
+ * *_strncpy - Write a function that concatenates two strings.
  *
  * Description: 'the program's description'
  * @src: source pointer
@@ -13,9 +13,7 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-dest = malloc(sizeof(src) * n);
-strcpy(dest, src);
-free(dest);
-return (0);
 
+strncpy(dest, src, n);
+return (dest);
 }
