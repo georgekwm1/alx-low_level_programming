@@ -13,7 +13,7 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-*src = malloc(sizeof(char) * n);
+src = malloc(sizeof(char) * n);
 strcpy(dest, src);
 free(dest);
 return (0);
