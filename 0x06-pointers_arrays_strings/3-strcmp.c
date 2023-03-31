@@ -13,6 +13,10 @@
 int _strcmp(char *s1, char *s2)
 {
 
-strcmp(*s1, *s2);
+if (strcmp(s1, s2) = 0)
 return (0);
+else if (strcmp(s1, s2) < 0)
+return (-1);
+else if (strcmp(s1, s2) > 0)
+return (1);
 }
