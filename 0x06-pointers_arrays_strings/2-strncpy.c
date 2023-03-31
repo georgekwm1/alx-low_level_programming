@@ -13,9 +13,9 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-src = (char*)malloc(sizeof(char) * n);
+dest = malloc(sizeof(src) * n);
 strcpy(dest, src);
-free(src);
+free(dest);
 return (0);
 
 }
