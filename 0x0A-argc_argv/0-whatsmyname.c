@@ -2,19 +2,19 @@
 
 /**
  * main(int argc, char* argv[])  - print arguments
- *@argc : argument count 
+ *@argc : argument count
  *@argv : argument array
  * Return: always 0
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-  int i = 0;
+int i = 0;
 
-  while(i < argc)
-    {
-      printf("%s\n", argv[i]);
-      i++;
-    }
-  return (0);
+while (i < argc)
+{
+printf("%s\n", argv[i]);
+i++;
+}
+return (0);
 }
