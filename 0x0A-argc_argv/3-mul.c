@@ -13,7 +13,7 @@ int a, b, product;
 
 if (argc != 3)
 {
-printf("Error: Please provide two integer arguments\n");
+printf("Error\n");
 return (1);
 }
 
