@@ -9,23 +9,26 @@
 
 int main(int argc, char *argv[])
 {
-int i = 0;
-int mul = 1;
+int a, b, product;
 
-if (argc > 1 && argc <= 3)
+if (argc != 3)
 {
-while (i < argc)
-{
-mul = mul * (atoi(argv[i + 1]));
-i++;
-if (i == 2)
-printf("%d\n", mul);
+printf("Error: Please provide two integer arguments\n");
+return (1);
 }
-}
-else
+
+a = atoi(argv[1]);
+b = atoi(argv[2]);
+
+if (a == 0 || b == 0)
 {
 printf("Error\n");
 return (1);
 }
+
+product = a * b;
+printf("%d\n", product);
+
 return (0);
 }
+
