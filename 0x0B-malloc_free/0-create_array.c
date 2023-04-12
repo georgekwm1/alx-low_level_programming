@@ -16,7 +16,6 @@ unsigned int i = 0;
 
 if (size == 0)
 {
-printf("failed to allocate memory");
 return (NULL);
 }
 if (array == NULL)
