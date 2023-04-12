@@ -24,6 +24,7 @@ return (array);
 free(array);
 if (size == 0)
 {
+printf("failed to allocate memory");
 return (NULL);
 }
 else
