@@ -25,8 +25,8 @@ free(array);
 if (size == 0)
 {
 printf("failed to allocate memory");
-return (NULL);
+return NULL;
 }
-else
-return (NULL);
+if (array == NULL)
+return NULL;
 }
