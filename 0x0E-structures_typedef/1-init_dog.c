@@ -2,10 +2,10 @@
 #include "dog.h"
 
 /**
- * _init_dog - writes a function that initializes var of type struct dog
+ * init_dog - writes a function that initializes var of type struct dog
  *
  * @d: structure pointer
- * @str: describe the parameter
+ * @name: describe the parameter
  * @age: age
  * @owner: char
  *
