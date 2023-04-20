@@ -1,1 +1,1 @@
-Type description here
+C - Variadic functions
