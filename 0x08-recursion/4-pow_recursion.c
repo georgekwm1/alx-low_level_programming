@@ -16,12 +16,12 @@ int _pow_recursion(int x, int y)
 	int newX;
 	if (y == 0)
 	{
-		return 1;
+		return (1);
 	}
 
 	if (y < 0)
 	{
-		return -1;
+		return (-1);
 	}
 
 	newX = x * 1;
