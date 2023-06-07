@@ -5,15 +5,15 @@
 
 /**
  * _pow_recursion - Write a function that returns the value of x raised to the power of y
- *@x - integer
- *@y - power
+ *@x: integer
+ *@y: power
  *
  * Return: The integer.
  */
 
 int _pow_recursion(int x, int y)
 {
-	int power, newX;
+	int newX;
 	if (y == 0)
 	{
 		return 1;
@@ -26,6 +26,6 @@ int _pow_recursion(int x, int y)
 
 	newX = x * 1;
 	y--;
-	power = newX * _pow_recursion(x, y);
+	return (newX * _pow_recursion(x, y));
 }
 
