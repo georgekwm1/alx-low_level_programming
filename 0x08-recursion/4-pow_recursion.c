@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * _pow_recursion - Write a function that returns the value of x raised to the power of y
+ * _pow_recursion - returns the value of x raised to the power of y
  *@x: integer
  *@y: power
  *
@@ -14,6 +14,7 @@
 int _pow_recursion(int x, int y)
 {
 	int newX;
+
 	if (y == 0)
 	{
 		return (1);
