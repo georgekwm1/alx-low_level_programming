@@ -5,7 +5,7 @@
 
 /**
  * _puts_recursion -  prints a string, followed by a new line.
- * @s - String
+ * @s -String
  *
  * Return: The string.
  */
