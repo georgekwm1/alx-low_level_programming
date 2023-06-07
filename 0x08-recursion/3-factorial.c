@@ -5,21 +5,22 @@
 
 /**
  * factorial - returns the factorial of a given number.
- *@n - integer
+ *@n: integer
  *
  * Return: The integer.
  */
 
 int factorial(int n)
 {
+	int fact;
 	if (n == 0)
 	{
-		return 1;
+		return (1);
 	}
 	if (n <= 0)
 	{
-		return -1;
+		return (-1);
 	}
-	int fact = n * factorial(n - 1);
+	fact = n * factorial(n - 1);
 }
 
