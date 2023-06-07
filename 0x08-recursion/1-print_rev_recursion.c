@@ -5,7 +5,7 @@
 
 /**
  * _print_rev_recursion -  prints a string in reverse.
- *@s - String
+ *@s - String to be inputted
  *
  * Return: The string.
  */
@@ -14,7 +14,6 @@ void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
 	{
-		putchar('\n');
 		return;
 	}
 	_print_rev_recursion(s + 1);
