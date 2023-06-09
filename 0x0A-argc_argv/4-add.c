@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	if (argc == 1)
 	{
 		printf("0\n");
-		return 0;
+		return (0);
 	}
 
 	else
@@ -29,13 +29,13 @@ int main(int argc, char *argv[])
 		while (count < argc - 1)
 		{
 
-			i= (argv[count + 1]);
+			i = (argv[count + 1]);
 			num = strtol(i, &j, 10);
 
 			if (*j != '\0')
 			{
 				printf("Error\n");
-				return 1;
+				return (1);
 			}
 			else
 			{
@@ -46,6 +46,6 @@ int main(int argc, char *argv[])
 		printf("%d\n", addtn);
 	}
 
-	return 0;
+	return (0);
 }
 
