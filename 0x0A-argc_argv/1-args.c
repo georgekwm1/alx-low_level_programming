@@ -14,10 +14,13 @@ int main(int argc, char *argv[])
 {
 	int count = 1;
 
-	while (count < argc)
+	while (count <= argc)
 	{
 		count++;
+		if (count == argc)
+		{
+		printf("%d\n", count);
+		}
 	}
-	printf("%d\n", count);
 	return (0);
 }
