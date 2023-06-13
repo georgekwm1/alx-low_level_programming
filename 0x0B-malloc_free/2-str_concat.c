@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 #include "main.h"
 
@@ -12,6 +13,9 @@
 
 char *str_concat(char *s1, char *s2)
 {
+	char *concat;
+	int count, count2, next;
+
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -20,11 +24,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-	char *concat;
-	int count, count2, next;
 
 	concat = malloc(sizeof(char) * (strlen(s1) + strlen(s2) + 1));
-	while (count < strlen(s1))
+	while (count < (int)strlen(s1))
 	{
 		*(concat + count) = *(s1 + count);
 		count++;
