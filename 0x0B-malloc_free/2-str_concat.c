@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 	next = count;
 	count2 = 0;
 
-	while (next < (strlen(s1) + strlen(s2)))
+	while (next < (int)((strlen(s1) + strlen(s2))))
 	{
 		*(concat + next) = *(s2 + count2);
 		count2++;
