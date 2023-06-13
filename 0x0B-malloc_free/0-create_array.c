@@ -31,6 +31,6 @@ char *create_array(unsigned int size, char c)
 		count++;
 	}
 	*(s + count) = '\0';
-	free(s);
+	
 	return (s);
 }
