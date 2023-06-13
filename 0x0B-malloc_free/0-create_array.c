@@ -23,7 +23,7 @@ char *create_array(unsigned int size, char c)
 
 	s = (char *)malloc(sizeof(char) * (size + 1));
 
-	while (count < size)
+	while (count <= size)
 	{
 		*(s + count) = c;
 
