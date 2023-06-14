@@ -32,20 +32,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 
-	while (count < (int)strlen(s1))
-	{
-		*(concat + count) = *(s1 + count);
-		count++;
-	}
-	next = count;
-	count2 = 0;
-
-	while (next < (int)((strlen(s1) + strlen(s2))))
-	{
-		*(concat + next) = *(s2 + count2);
-		count2++;
-		next++;
-	}
-	*(concat + next + 1) = '\0';
-	return (concat);
+	strcpy(concat, s1);
+	strcat(concat, s2)
+		return (concat);
 }
