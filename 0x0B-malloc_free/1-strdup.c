@@ -14,23 +14,18 @@
 
 char *_strdup(char *str)
 {
-	char *strcpy = malloc(sizeof(char) * (strlen(str) + 1));
-	int count = 0;
+	char *strncpy = malloc(sizeof(char) * (strlen(str) + 1));
 
-	if (sizeof(strcpy) < sizeof(str))
-	{
-		return ("NULL");
-	}
 	if (str == NULL)
 	{
 		return ("NULL");
 	}
 
-	while (count < (int)(strlen(str)))
+	if (strncpy == NULL)
 	{
-		*(strcpy + count) = *(str + count);
-		count++;
+		return (NULL);
 	}
-	*(strcpy + count + 1) = *(str + count + 1);
-	return (strcpy);
+	strcpy(strncpy, str);
+
+	return (strncpy);
 }
