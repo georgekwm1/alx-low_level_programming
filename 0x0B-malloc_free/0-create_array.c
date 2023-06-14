@@ -25,7 +25,7 @@ char *create_array(unsigned int size, char c)
 
 	if (s == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 
 	while (count <= size)
