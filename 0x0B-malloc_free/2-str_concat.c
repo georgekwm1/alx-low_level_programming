@@ -14,7 +14,6 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *concat;
-	int count, count2, next;
 
 	if (s1 == NULL)
 	{
@@ -33,6 +32,6 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	strcpy(concat, s1);
-	strcat(concat, s2)
-		return (concat);
+	strcat(concat, s2);
+	return (concat);
 }
