@@ -17,9 +17,13 @@ char *_strdup(char *str)
 	char *strcpy = malloc(sizeof(char) * (strlen(str) + 1));
 	int count = 0;
 
+	if (sizeof(strcpy) < sizeof(str))
+	{
+		return ("NULL");
+	}
 	if (str == NULL)
 	{
-		return (NULL);
+		return ("NULL");
 	}
 
 	while (count < (int)(strlen(str)))
