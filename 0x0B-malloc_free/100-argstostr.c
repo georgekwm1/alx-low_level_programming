@@ -16,29 +16,31 @@
 
 char *argstostr(int ac, char **av)
 {
+	int total_length = 0;
+	int i, str_size;
+	int offset = 0;
+	char *str;
+
 	if (ac == 0 || av == NULL)
 	{
 		return (NULL);
 	}
 
-	int total_length = 0;
-	int i;
 
 	for (i = 0; i < ac; i++)
 	{
 		total_length += strlen(av[i]);
 	}
 
-	int str_size = total_length + ac + 1;
+	str_size = total_length + ac + 1;
 
-	char *str = malloc(sizeof(char) * str_size);
+	str = malloc(sizeof(char) * str_size);
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
 
-	int offset = 0;
 
 	for (i = 0; i < ac; i++)
 	{
