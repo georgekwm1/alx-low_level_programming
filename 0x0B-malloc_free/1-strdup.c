@@ -25,6 +25,12 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
+
+	if (sizeof(strncpy) != sizeof(str))
+	{
+		return (NULL);
+	}
+
 	strcpy(strncpy, str);
 
 	return (strncpy);
