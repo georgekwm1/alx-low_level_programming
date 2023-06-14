@@ -29,6 +29,7 @@ int **alloc_grid(int width, int height)
 	{
 		matric[counti] = (int *)malloc(sizeof(int) * width);
 		countj = 0;
+
 		while (countj < width)
 		{
 
@@ -36,6 +37,7 @@ int **alloc_grid(int width, int height)
 
 			countj++;
 		}
+		free(matric[counti]);  
 		counti++;
 
 	}
