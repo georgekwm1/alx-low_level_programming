@@ -42,4 +42,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		count++;
 	}
 	va_end(nameList);
+	printf("\n");
 }
