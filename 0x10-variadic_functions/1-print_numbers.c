@@ -31,7 +31,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		{
 			if (count < n - 1)
 			{
-				printf("%d%s ", num, separator);
+				printf("%d%s", num, separator);
 			}
 			if (count == n - 1)
 			{
